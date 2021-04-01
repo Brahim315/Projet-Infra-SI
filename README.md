@@ -75,3 +75,7 @@ Si l’identifiant que l’on a entré est correct, on peut donc accéder au ré
 #### Plan d'adressage 
 
 <img src="plan_d_adressage.png">
+
+#### Schéma
+
+<img src="Schema_reseau.png">
