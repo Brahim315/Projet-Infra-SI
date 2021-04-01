@@ -1,8 +1,8 @@
 <h1 align="center"> Projet-Infra-SI </h1>
 <img src="logo-ynov.jpg" align="right">
 <p>Groupe n°19</p>
-<p> Corentin Baudrin - B1 B info</p>
-<p> Brahim Gnaoui - B1 B info</p> 
+<p><B>Corentin Baudrin</B> - B1 B info</p>
+<p><B>Brahim Gnaoui</B> - B1 B info</p> 
 
 
 ## Projet n°2 - Routeur
