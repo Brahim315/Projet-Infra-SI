@@ -72,3 +72,6 @@ Si l’identifiant que l’on a entré est correct, on peut donc accéder au ré
 
 <h3> III - Schéma réseau</h3>
 
+#### Plan d'adressage 
+
+<img src="plan_d_adressage.png">
