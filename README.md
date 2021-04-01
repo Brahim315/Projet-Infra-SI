@@ -11,4 +11,4 @@ certaines fonctionnalités additionnelles, en plus du routage simple).
 
 ### Livrable
 
-Toute les informations détaillées sur la manière dont on a procédé pour la mise en place du routeur se trouvent dans le fichier "livrable.pdf".
+Toute les informations détaillées sur la manière dont nous avons procédé pour la mise en place du routeur se trouvent dans le fichier "PROJET INFRA GROUPE 19.pdf".
