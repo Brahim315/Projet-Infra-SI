@@ -17,7 +17,7 @@ Toute les informations détaillées sur la manière dont nous avons procédé po
 
 Aprés avoir lu de la documentation sur differentes technologies telles que Pfsense ou Opnsense, nous nous sommes sentis plus à l'aise avec Pfsense et l'avons donc choisi.
 
-<h3>Configuration de Pfsense</h3>
+<h3> I - Configuration de Pfsense</h3>
 
 Dans un premier temps avant l’installation de la machine nous lui avons créer plusieurs réseaux. Ces réseaux étant un NAT permettant d’accéder à internet pour le routeur. Et deux réseaux NAT différents afin que les machines qui veulent se connecter à internet doivent passer par le routeur.
 
@@ -32,7 +32,7 @@ Lorsque l'on arrive à la page d'accueil de Pfsense on choisit l'option numero 2
 
 L'accés à l'interface devrait donc être configurée.
 
-<h3>Configuration du portail captif</h3>
+<h3> II - Configuration du portail captif</h3>
 
 ####  1 - Mise en place du portail captif
 
@@ -69,3 +69,6 @@ Lorsque l’on ouvre une VM qui est dans le même LAN notre notre routeur Pfsens
 <img src="Hotspot.png" align="center">
 
 Si l’identifiant que l’on a entré est correct, on peut donc accéder au réseau, et on peut également voir dans l’interface web de l’admin que des utilisateurs sont connectés au réseau via le portail captif dans l’onglet “Status” puis “Captive Portal”.
+
+<h3> III - Schéma réseau</h3>
+
