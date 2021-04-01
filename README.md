@@ -8,3 +8,7 @@
 ## Projet n°2 - Routeur
 Mise en place d’un routeur qui gère les différentes zones réseaux d’une petite entreprise (avec
 certaines fonctionnalités additionnelles, en plus du routage simple).
+
+### Livrable
+
+Toute les informations détaillées sur la manière dont on a procédé pour la mise en place du routeur se trouvent dans le fichier "livrable.pdf".
