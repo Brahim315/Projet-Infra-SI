@@ -66,3 +66,6 @@ Normalement si toutes les étapes ont été respectées, nous devons voir appara
 
 Lorsque l’on ouvre une VM qui est dans le même LAN notre notre routeur Pfsense, lorsque l’on essaie d'accéder à n’importe quelle page web, il doit y apparaître une page d’identification, il faut donc y rentrer les identifiants d’un utilisateur que nous avons créé dans notre groupe dédié au portail captif.
 
+<img src="Hotspot.png" align="center">
+
+Si l’identifiant que l’on a entré est correct, on peut donc accéder au réseau, et on peut également voir dans l’interface web de l’admin que des utilisateurs sont connectés au réseau via le portail captif dans l’onglet “Status” puis “Captive Portal”.
