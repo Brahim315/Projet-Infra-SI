@@ -45,3 +45,24 @@ Le client sera également déconnecté au bout de 30 minutes d’inactivité et 
 Comme méthode d'authentification nous utilisons “Use an authentication backend” afin que le client soit obligé de s’identifier pour accéder au réseau.
 
 ####  2 - Configuration d’un groupe d’utilisateurs 
+
+Ensuite, toujours dans l’interface web du routeur, on est aller dans l’onglet “System” puis dans “User manager”.
+Il faut choisir la rubrique “Groups”. On choisit le nom de groupe de notre portail captif afin d’y intégrer tous nos utilisateurs autorisés.
+
+Et dans le scope il faut absolument mettre en local.
+
+Les cases dans “Group membership” est ce qui devrait apparaître lorsqu’on y créer des utilisateurs. L’admin doit toujours être dans la case “Not members", dans le cas contraire tous les utilisateurs seront reconnus en tant qu’administrateurs.
+
+Dans les options de “Assigned Privilèges” parmi la liste des services proposés il faut choisir “User - Services: Captive Portal Login”, c’est cette option qui va permettre au client du groupe de se connecter au portail captif.
+
+#### 3 - Création d’un utilisateur
+
+Pour créer un utilisateur, il faut quitter l’onglet “Groups” et aller dans “Users”. Nous y avons toutes les options comme la création d’un nom d'utilisateur et un mot de passe.
+
+Dans “Group membership” il faut que le groupe crée précédemment soit dans le case “member of” ce qui va permettre d'intégrer l’utilisateur au groupe.
+Normalement si toutes les étapes ont été respectées, nous devons voir apparaître dans “Users” la liste des utilisateurs créés en plus de l’admin. 
+
+#### 4 - Connexion au réseau avec une VM
+
+Lorsque l’on ouvre une VM qui est dans le même LAN notre notre routeur Pfsense, lorsque l’on essaie d'accéder à n’importe quelle page web, il doit y apparaître une page d’identification, il faut donc y rentrer les identifiants d’un utilisateur que nous avons créé dans notre groupe dédié au portail captif.
+
